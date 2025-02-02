@@ -13,7 +13,7 @@ type Response struct {
 	IsPrime    bool     `json:"is_prime"`
 	IsPerfect  bool     `json:"is_perfect"`
 	Properties []string `json:"properties"`
-	DigitSum   int      `json:"digit_sum"`
+	DigitSum   int      `json:"class_sum"`
 	FunFact    string   `json:"fun_fact"`
 }
 
