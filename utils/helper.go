@@ -63,6 +63,7 @@ func ClassifyProperties(n int) []string {
 
 func CalculateDigitSum(n int) int {
 	sum := 0
+	n = int(math.Abs(float64(n)))
 	for n > 0 {
 		sum += n % 10
 		n /= 10
