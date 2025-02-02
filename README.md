@@ -27,8 +27,8 @@ The API is built using the **Gin** framework and follows a simple RESTful struct
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/Jidetireni/num_class_api.git
+   cd num_class_api.git
    ```
 
 2. Install dependencies:
