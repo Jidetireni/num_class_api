@@ -2,7 +2,6 @@ package main
 
 import (
 	"num_class_api/handlers"
-	"num_class_api/utils"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -22,11 +21,11 @@ func main() {
 
 }
 
-func Funfact(n int) (string, error) {
-	funfact, err := utils.GetFuncFact(n)
-	if err != nil {
-		return "", err
-	}
+// func Funfact(n int) (string, error) {
+// 	funfact, err := utils.GetFuncFact(n)
+// 	if err != nil {
+// 		return "", err
+// 	}
 
-	return funfact, nil
-}
+// 	return funfact, nil
+// }
